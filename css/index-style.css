@@ -1,0 +1,57 @@
+body{
+	background-image: url('../assets/img/buildingblur.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: -webkit-fill-available;
+	background-attachment: fixed;
+}
+
+.h-100{
+	height: -webkit-fill-available;
+}
+
+#imp_container1{
+	background-size: 100%;
+	background-origin: center;
+	background-repeat: no-repeat;
+}
+
+.imp_heading{
+	font-family: 'Righteous', cursive;
+	color: #fff;
+	text-shadow: 0px 0px 5px #000;
+	margin-top: 200px;
+}
+
+.form{
+	border-top: 2px solid #000;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+}
+
+.source_loc{
+	display: none;
+	align-items: center;
+	font-style: normal;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.hidden
+{
+	visibility:  hidden;
+}
+
+.has-error input {
+  border-width: 2px;
+}
+
+.validation.text-danger:after {
+  content: 'Validation failed';
+}
+
+.validation.text-success:after {
+  content: 'Validation passed';
+}
